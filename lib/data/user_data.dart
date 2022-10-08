@@ -40,11 +40,11 @@ class UserData {
   static fromFirebase(User? user) {
     return user != null
         ? UserData(
-      name: user.displayName ?? "",
-      photo: user.photoURL ?? "",
-      mail: user.email ?? "",
-      workouts: [],
-    )
+            name: user.displayName ?? "",
+            photo: user.photoURL ?? "",
+            mail: user.email ?? "",
+            workouts: [],
+          )
         : [];
   }
 }
