@@ -1,3 +1,4 @@
+import 'package:fitness/screens/tab_bar/page/tab_bar_page.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
